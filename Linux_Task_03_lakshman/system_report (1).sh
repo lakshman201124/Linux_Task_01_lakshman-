@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "System Information Report"
+echo "User: $(whoami)"
+echo "Hostname : $(hostname)"
+echo "Date: $(date)"
+echo "Current Directory: $(pwd)"
+echo ""
+echo "Memory Usage:"
+free -h
+echo ""
+echo "Disk Usage:"
+df -h
